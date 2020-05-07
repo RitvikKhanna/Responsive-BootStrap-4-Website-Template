@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true" ></script>
+  <title>Responsive BootStrap 4</title>
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+
+
+  <!-- navbar-expand-md -> For medium screen breakout -->
+  <!-- navbar-light bg-light -> Light background dark text -->
+  <!-- sticky-top -> Stays on top -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fas fa-camera"></i>LOGO</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" name="button" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <!-- ml-auto -> Pushes to right in non mobile -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Slide Show Start -->
+  <div class="carousel slide" data-ride="carousel" id="slides">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slilde-to="0" class="active"></li>
+      <li data-target="#slides" data-slilde-to="1"></li>
+      <li data-target="#slides" data-slilde-to="2"></li>
+      <li data-target="#slides" data-slilde-to="3"></li>
+      <li data-target="#slides" data-slilde-to="4"></li>
+    </ul>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/bg1.jpg" alt="">
+        <div class="carousel-caption">
+          <h1 class="display-2">Main Heading Text</h1>
+          <h3>Long tagline here describing Main</h3>
+          <button type="button" class="btn btn-outline-light btn-lg" name="button">Primary</button>
+          <button type="button" class="btn btn-primary btn-lg" name="button">Secondary</button>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/bg2.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bg3.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bg4.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bg5.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide Show End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Jumbotron -->
+  <div class="container-fluid">
+
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a nisl quis mi venenatis volutpat at et lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet arcu sit amet enim ultricies ultrices maximus eu leo. Curabitur.</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="#" class="btn btn-outline-secondary btn-lg">Primary Task</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Jumbotron End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Welcome/About Section -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">Main Tagline</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a nisl quis mi venenatis volutpat at et lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet arcu sit amet enim ultricies ultrices maximus eu leo. Ut venenatis ex risus, ut hendrerit ipsum sodales at. Curabitur.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Welcome/About Section End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- 3 column Start -->
+  <div class="container-fluid padding color-topic">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-code"></i>
+        <h3>Topic 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-bold"></i>
+        <h3>Topic 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <i class="fab fa-css3"></i>
+        <h3>Topic 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+    </div>
+    <hr class="my-4">
+  </div>
+
+  <!-- 3 column End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- 2 column Start -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+
+      <div class="col-md-12 col-lg-6">
+        <h2>Business Task...</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <br>
+        <a href="#" class="btn btn-primary btn-md">Learn More</a>
+      </div>
+
+      <div class="col-md-12 col-lg-6">
+        <img src="images/bg5.jpg" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+  <hr class="my-4">
+
+  <!-- 2 column End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Fixed Background Start -->
+  <figure>
+    <div class="fixed-wrap">
+      <div class="" id="fixed">
+      </div>
+    </div>
+  </figure>
+
+  <!-- Fixed Background End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Hidden Section Start -->
+  <button type="button" class="fun" data-toggle="collapse" data-target="#emoji" name="button">Some responsive Fun, Click Here!</button>
+  <div class="collapse" id="emoji">
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-sm-6 col-md-3">
+          <img src="gif/panda.gif" class="gif" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="gif/poo.gif" class="gif" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="gif/unicorn.gif" class="gif" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="gif/chicken.gif" class="gif" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden Section End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Team Section Start -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">Meet our Team</h1>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+  <!-- Team Section End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Team Cards Start -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/team1.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu.</p>
+            <a href="#" class="btn btn-outline-secondary">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/team2.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Mary Joe</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu.</p>
+            <a href="#" class="btn btn-outline-secondary">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/team3.jpg" class="card-img-top image-team" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Phil Ho</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu.</p>
+            <a href="#" class="btn btn-outline-secondary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Cards End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- 2 column Start -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+
+      <div class="col-md-12 col-lg-6">
+        <h2>Services We Offer</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus nulla. Etiam quis imperdiet leo. Curabitur ut laoreet enim, ac pretium arcu. Donec vestibulum turpis enim, quis euismod lorem.</p>
+        <br>
+      </div>
+
+      <div class="col-md-12 col-lg-6">
+        <img src="images/bg3.jpg" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 2 column  End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Contact US Start -->
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-12">
+        <h2>Follow us on social media</h2>
+      </div>
+
+      <div class="col-12 social padding">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact US End -->
+  <!-- *********************************************************** -->
+  <!-- *********************************************************** -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="container-fluid padding">
+      <div class=" row text-center">
+        <div class="col-md-4">
+          <i class="fas fa-camera footer-logo"></i>
+          <hr class="light">
+          <p>555-555-5555</p>
+          <p>email@email.com</p>
+          <p>Unit, Street</p>
+          <p>City, Province, Postal</p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Working Hours</h5>
+          <hr class="light">
+          <p>Monday-Friday: 8 am - 5 pm</p>
+          <p>Saturday: 9 am - 3 pm</p>
+          <p>Sunday: By Appointment</p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="light">
+          <h5>Service Area</h5>
+          <hr class="light">
+          <p>City, Province, Postal</p>
+          <p>City, Province, Postal</p>
+          <p>City, Province, Postal</p>
+          <p>City, Province, Postal</p>
+        </div>
+
+        <div class="col-12">
+          <hr class="light-100">
+          <h5>&copy;Ritvik Khanna - ritvik@ualberta.ca</h5>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
